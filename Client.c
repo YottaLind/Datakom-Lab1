@@ -1,17 +1,3 @@
-// #include <netinet/in.h>
-// #include <sys/socket.h>
-// #include <netdb.h>
-// #include <stdio.h>
-// #include "string.h"
-
-// int main()
-// {
-//     printf("Hello Client\n");
-//     return 0;
-// }
-
-/****************** CLIENT CODE ****************/
-
 #include <stdio.h>
 #include <sys/socket.h>
 #include <netinet/in.h>

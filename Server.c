@@ -1,16 +1,3 @@
-// #include <netinet/in.h>
-// #include <sys/socket.h>
-// #include <netdb.h>
-// #include <stdio.h>
-// #include "string.h"
-
-// int main()
-// {
-//      printf("Hello Server\n");
-
-//     return 0;
-// }
-
 #include <stdio.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -42,7 +29,7 @@ int main(){
 
   /*---- Listen on the socket, with 5 max connection requests queued ----*/
   if(listen(welcomeSocket,5)==0)
-    printf("Listening\n");
+    printf("Waiting for Client\n");
   else
     printf("Error\n");
 
