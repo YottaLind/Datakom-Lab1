@@ -5,7 +5,7 @@
 
 int main(){
   int welcomeSocket, newSocket;
-  char buffer[1024];
+  char buffer[512];
   struct sockaddr_in serverAddr;
   struct sockaddr_storage serverStorage;
   socklen_t addr_size;
